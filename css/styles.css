@@ -1,3 +1,9 @@
+/*
+ * このCSSファイルの著作権表示
+ * Copyright (c) 2024 プログラミングラボ
+ * すべての権利を保持します。
+ */
+
 html {
     
 }
@@ -126,4 +132,13 @@ li.mainMenu {
 .selected.mainMenu:after {
     border-color : white transparent transparent transparent;
     transition   : all .4s;
+}
+
+/*************************************/
+main {
+    height: 100%; /* height-max は存在しないプロパティです */
+
+    margin : 50px auto;
+    width  : 90%;
+    background-color: #ffffff;
 }
